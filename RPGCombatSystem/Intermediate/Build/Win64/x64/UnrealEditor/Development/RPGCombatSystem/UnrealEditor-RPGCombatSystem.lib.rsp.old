@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RPGCombatSystem.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\RPGCombatSystemEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\RPGCombatSystem.init.gen.cpp.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\WarriorBaseCharacter.gen.cpp.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\WarriorBaseGameMode.gen.cpp.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\RPGCombatSystem.cpp.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\WarriorBaseCharacter.cpp.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\WarriorBaseGameMode.cpp.obj"
+"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\Default.rc2.res"
+/OUT:"C:\Users\sayan\Projects\RPG-Combat-System\RPGCombatSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\RPGCombatSystem\UnrealEditor-RPGCombatSystem.lib"
