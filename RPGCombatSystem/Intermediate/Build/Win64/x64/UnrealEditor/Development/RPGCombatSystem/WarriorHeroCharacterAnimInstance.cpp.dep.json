@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\private\\animinstances\\hero\\warriorherocharacteraniminstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\x64\\rpgcombatsystemeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rpgcombatsystem\\definitions.rpgcombatsystem.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\public\\animinstances\\hero\\warriorherocharacteraniminstance.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\public\\animinstances\\warriorcharacteraniminstance.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\public\\animinstances\\warriorbaseaniminstance.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\unrealeditor\\inc\\rpgcombatsystem\\uht\\warriorbaseaniminstance.generated.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\unrealeditor\\inc\\rpgcombatsystem\\uht\\warriorcharacteraniminstance.generated.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\unrealeditor\\inc\\rpgcombatsystem\\uht\\warriorherocharacteraniminstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
