@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeRPGCombatSystem_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE30B91D6,
+				0x36DE98D7,
 				0x94BB592E,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeRPGCombatSystem_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_RPGCombatSystem.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RPGCombatSystem(Z_Construct_UPackage__Script_RPGCombatSystem, TEXT("/Script/RPGCombatSystem"), Z_Registration_Info_UPackage__Script_RPGCombatSystem, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE30B91D6, 0x94BB592E));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RPGCombatSystem(Z_Construct_UPackage__Script_RPGCombatSystem, TEXT("/Script/RPGCombatSystem"), Z_Registration_Info_UPackage__Script_RPGCombatSystem, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x36DE98D7, 0x94BB592E));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

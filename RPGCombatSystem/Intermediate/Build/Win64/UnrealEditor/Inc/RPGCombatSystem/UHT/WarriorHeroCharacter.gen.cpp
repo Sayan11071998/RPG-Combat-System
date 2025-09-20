@@ -10,6 +10,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWarriorHeroCharacter() {}
 
 // Begin Cross Module References
+ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 RPGCOMBATSYSTEM_API UClass* Z_Construct_UClass_AWarriorBaseCharacter();
 RPGCOMBATSYSTEM_API UClass* Z_Construct_UClass_AWarriorHeroCharacter();
 RPGCOMBATSYSTEM_API UClass* Z_Construct_UClass_AWarriorHeroCharacter_NoRegister();
@@ -33,13 +35,35 @@ struct Z_Construct_UClass_AWarriorHeroCharacter_Statics
 		{ "IncludePath", "Characters/WarriorHeroCharacter.h" },
 		{ "ModuleRelativePath", "Public/Characters/WarriorHeroCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Characters/WarriorHeroCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Characters/WarriorHeroCharacter.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AWarriorHeroCharacter>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AWarriorHeroCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x01440000000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AWarriorHeroCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraBoom_MetaData), NewProp_CameraBoom_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AWarriorHeroCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x01440000000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AWarriorHeroCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FollowCamera_MetaData), NewProp_FollowCamera_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWarriorHeroCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWarriorHeroCharacter_Statics::NewProp_CameraBoom,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWarriorHeroCharacter_Statics::NewProp_FollowCamera,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AWarriorHeroCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AWarriorHeroCharacter_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_AWarriorBaseCharacter,
 	(UObject* (*)())Z_Construct_UPackage__Script_RPGCombatSystem,
@@ -51,11 +75,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AWarriorHeroCharacter_S
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_AWarriorHeroCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_AWarriorHeroCharacter_Statics::PropPointers),
 	0,
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AWarriorHeroCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_AWarriorHeroCharacter_Statics::Class_MetaDataParams)
@@ -72,7 +96,6 @@ template<> RPGCOMBATSYSTEM_API UClass* StaticClass<AWarriorHeroCharacter>()
 {
 	return AWarriorHeroCharacter::StaticClass();
 }
-AWarriorHeroCharacter::AWarriorHeroCharacter() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AWarriorHeroCharacter);
 AWarriorHeroCharacter::~AWarriorHeroCharacter() {}
 // End Class AWarriorHeroCharacter
@@ -81,10 +104,10 @@ AWarriorHeroCharacter::~AWarriorHeroCharacter() {}
 struct Z_CompiledInDeferFile_FID_Users_sayan_Projects_RPG_Combat_System_RPGCombatSystem_Source_RPGCombatSystem_Public_Characters_WarriorHeroCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWarriorHeroCharacter, AWarriorHeroCharacter::StaticClass, TEXT("AWarriorHeroCharacter"), &Z_Registration_Info_UClass_AWarriorHeroCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWarriorHeroCharacter), 2422426250U) },
+		{ Z_Construct_UClass_AWarriorHeroCharacter, AWarriorHeroCharacter::StaticClass, TEXT("AWarriorHeroCharacter"), &Z_Registration_Info_UClass_AWarriorHeroCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWarriorHeroCharacter), 814548744U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sayan_Projects_RPG_Combat_System_RPGCombatSystem_Source_RPGCombatSystem_Public_Characters_WarriorHeroCharacter_h_2251005705(TEXT("/Script/RPGCombatSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sayan_Projects_RPG_Combat_System_RPGCombatSystem_Source_RPGCombatSystem_Public_Characters_WarriorHeroCharacter_h_1751162372(TEXT("/Script/RPGCombatSystem"),
 	Z_CompiledInDeferFile_FID_Users_sayan_Projects_RPG_Combat_System_RPGCombatSystem_Source_RPGCombatSystem_Public_Characters_WarriorHeroCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_sayan_Projects_RPG_Combat_System_RPGCombatSystem_Source_RPGCombatSystem_Public_Characters_WarriorHeroCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
