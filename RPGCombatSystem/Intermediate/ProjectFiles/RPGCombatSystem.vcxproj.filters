@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RPGCombatSystem.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RPGCombatSystem.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RPGCombatSystemEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RPGCombatSystem">
+      <UniqueIdentifier>{14A67BDE-01C7-32E0-B63F-5F56D5E5C6CE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RPGCombatSystem\RPGCombatSystem.Build.cs">
+      <Filter>Source\RPGCombatSystem</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\RPGCombatSystem.cpp">
+      <Filter>Source\RPGCombatSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\RPGCombatSystem.h">
+      <Filter>Source\RPGCombatSystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\RPGCombatSystem\Private">
+      <UniqueIdentifier>{85AE0371-E027-3BE1-A337-666D8CEA5197}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\WarriorGameplayTags.cpp">
+      <Filter>Source\RPGCombatSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RPGCombatSystem\Private\Characters">
+      <UniqueIdentifier>{2B4479E8-B03A-31DB-BBAB-BB91349DC725}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\Characters\WarriorBaseCharacter.cpp">
+      <Filter>Source\RPGCombatSystem\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\Characters\WarriorHeroCharacter.cpp">
+      <Filter>Source\RPGCombatSystem\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\RPGCombatSystem\Private\Controllers">
+      <UniqueIdentifier>{F3EBA3DD-7CF3-357D-BA46-7F5341AF7115}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\Controllers\WarriorHeroController.cpp">
+      <Filter>Source\RPGCombatSystem\Private\Controllers</Filter>
+    </ClCompile>
+    <Filter Include="Source\RPGCombatSystem\Private\GameModes">
+      <UniqueIdentifier>{BDE1064B-CAF0-3CD0-BAD1-F2C433F5D116}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\GameModes\WarriorBaseGameMode.cpp">
+      <Filter>Source\RPGCombatSystem\Private\GameModes</Filter>
+    </ClCompile>
+    <Filter Include="Source\RPGCombatSystem\Public">
+      <UniqueIdentifier>{A0241B4E-EC2B-316E-9C09-AADB92340FFE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\WarriorDebugHelper.h">
+      <Filter>Source\RPGCombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\WarriorGameplayTags.h">
+      <Filter>Source\RPGCombatSystem\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\RPGCombatSystem\Public\Characters">
+      <UniqueIdentifier>{57DD3DA0-527A-3FBF-8E88-CD133FB48FF4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\Characters\WarriorBaseCharacter.h">
+      <Filter>Source\RPGCombatSystem\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\Characters\WarriorHeroCharacter.h">
+      <Filter>Source\RPGCombatSystem\Public\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\RPGCombatSystem\Public\Controllers">
+      <UniqueIdentifier>{85882363-9EF9-3FC6-9459-0824F730E3EF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\Controllers\WarriorHeroController.h">
+      <Filter>Source\RPGCombatSystem\Public\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\RPGCombatSystem\Public\GameModes">
+      <UniqueIdentifier>{26643109-D3FA-3B99-829B-743D7F092860}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\GameModes\WarriorBaseGameMode.h">
+      <Filter>Source\RPGCombatSystem\Public\GameModes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

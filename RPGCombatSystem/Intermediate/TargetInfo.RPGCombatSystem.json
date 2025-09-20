@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RPGCombatSystem",
+			"Path": "..\\Source\\RPGCombatSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RPGCombatSystemEditor",
+			"Path": "..\\Source\\RPGCombatSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

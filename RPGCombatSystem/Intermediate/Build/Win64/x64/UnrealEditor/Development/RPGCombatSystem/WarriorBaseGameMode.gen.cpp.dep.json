@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\unrealeditor\\inc\\rpgcombatsystem\\uht\\warriorbasegamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\x64\\rpgcombatsystemeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rpgcombatsystem\\definitions.rpgcombatsystem.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\public\\gamemodes\\warriorbasegamemode.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\unrealeditor\\inc\\rpgcombatsystem\\uht\\warriorbasegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

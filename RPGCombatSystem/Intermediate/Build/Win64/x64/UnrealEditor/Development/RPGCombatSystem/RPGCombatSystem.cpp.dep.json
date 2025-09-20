@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\rpgcombatsystem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\x64\\rpgcombatsystemeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rpgcombatsystem\\definitions.rpgcombatsystem.h",
+            "c:\\users\\sayan\\projects\\rpg-combat-system\\rpgcombatsystem\\source\\rpgcombatsystem\\rpgcombatsystem.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
