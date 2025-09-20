@@ -252,6 +252,7 @@
     <None Include="..\..\RPGCombatSystem.uproject"/>
     <None Include="..\..\Source\RPGCombatSystem.Target.cs"/>
     <None Include="..\..\Source\RPGCombatSystemEditor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
@@ -261,9 +262,26 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\RPGCombatSystem\RPGCombatSystem.h"/>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\WarriorGameplayTags.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\Characters\WarriorBaseCharacter.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\Characters\WarriorHeroCharacter.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RPGCombatSystem\Private\Controllers\WarriorHeroController.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RPGCombatSystem\Private\GameModes\WarriorBaseGameMode.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\WarriorDebugHelper.h"/>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\WarriorGameplayTags.h"/>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\Characters\WarriorBaseCharacter.h"/>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\Characters\WarriorHeroCharacter.h"/>
+    <ClInclude Include="..\..\Source\RPGCombatSystem\Public\Controllers\WarriorHeroController.h"/>
     <ClInclude Include="..\..\Source\RPGCombatSystem\Public\GameModes\WarriorBaseGameMode.h"/>
   </ItemGroup>
   <PropertyGroup>
